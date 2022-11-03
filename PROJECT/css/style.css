@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+}
+.topbar {
+  background-color: var(--bs-gray-900);
+}
+.topbar .logo a {
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 25px;
+  color: var(--bs-white);
+}
+.topbar .toggle {
+  text-align: left;
+  align-self: auto;
+}
+.topbar .toggle a {
+  font-size: 2rem;
+  color: var(--bs-white);
+  display: inline-block;
+}
+
+.logo_canvas {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.offcanvas-body ul {
+  list-style: none;
+  padding-left: 0;
+}
+.offcanvas-body ul li a {
+  display: block;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--bs-dark);
+  padding: 10px 15px;
+  border-bottom: 1px dashed #ccc;
+}
+
+.container {
+  margin-left: 5%;
+  height: 6rem;
+  padding-top: 1rem;
+}
+.searchbox {
+  position: absolute;
+  right: 5%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.searchText {
+  width: 20rem;
+  padding: 1rem;
+  border-radius: 5rem;
+  border: none;
+  outline: none;
+  transition: all 0.2s linear;
+}
+.searchText:focus {
+  outline: none;
+}
+.searchBtn {
+  width: 2rem;
+  height: 2rem;
+  background-color: #192a56;
+  color: #fff;
+  position: absolute;
+  display: grid;
+  right: 1rem;
+  place-items: center;
+  border-radius: 50%;
+}
